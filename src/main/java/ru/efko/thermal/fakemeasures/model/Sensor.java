@@ -6,7 +6,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "sensor")
+@Table(name = "sensor", schema = "sensor")
 @Data
 @NoArgsConstructor
 public class Sensor {

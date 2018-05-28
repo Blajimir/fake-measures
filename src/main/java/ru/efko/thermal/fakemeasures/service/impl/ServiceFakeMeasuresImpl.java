@@ -31,7 +31,7 @@ public class ServiceFakeMeasuresImpl implements ServiceFakeMeasures {
 
     public Measure generateMeasure(Sensor sensor){
         Measure measure = new Measure();
-        measure.setDevice_id(sensor.getId());
+        measure.setDeviceId(sensor.getId());
         measure.setFakeValue(0.0);
         measure.setDate(new Date());
         measure.setValue(this.generateRandomTemp(sensor));
