@@ -11,6 +11,7 @@ public class FakeMeasuresApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("Test success! =)");
 	}
 
 }
